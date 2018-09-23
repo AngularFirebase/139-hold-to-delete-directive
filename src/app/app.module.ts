@@ -22,10 +22,14 @@ const yourFirebaseConfig = {
 
 // Delete Me!
 import { firebase } from '../env';
+import { HoldableDirective } from './holdable.directive';
+import { CustomerComponent } from './customer/customer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HoldableDirective,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,

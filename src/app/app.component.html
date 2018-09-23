@@ -1,5 +1,9 @@
 <main>
-    <h3>Oh hello</h3>
+    <h3>Hold to Delete</h3>
     <p>Welcome to AngularFirebase world </p>
+
+    <!-- <button class="button" holdable (holdTime)="holdHandler($event)">Holdable</button> -->
+
+    <app-customer *ngFor="let c of customers$ | async" [customer]="c"></app-customer>
 </main>
 <router-outlet></router-outlet>

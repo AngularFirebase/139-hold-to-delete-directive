@@ -1,7 +1,3 @@
-# Episode 10X
+# Episode 139 - Hold to Delete
 
-
-1. `git clone <this-repo>` 
-2. `npm install`
-3.  Add your firebase credentials to the `app.module`
-4. `ng serve`
+Learn how to use RxJS and Angular Directives to create a "Hold to Delete" button. 
